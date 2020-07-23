@@ -1,0 +1,22 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "https://google.com",
+      "name": "Lucas Santos",
+      "birth": 918604800000,
+      "gender": "M",
+      "services": "Croosfit, Natação",
+      "created_at": 1595288287107
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://google.com",
+      "name": "Lucas Santos",
+      "birth": 918604800000,
+      "gender": "M",
+      "services": "Croosfit, Natação",
+      "created_at": 1595426393493
+    }
+  ]
+}
