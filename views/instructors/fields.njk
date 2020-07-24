@@ -45,3 +45,26 @@
             Masculino
         </span>
         <span>
+            <input 
+            type="radio" 
+            name="gender" 
+            value="F"
+            {% if instructor.gender == 'F' %}
+                checked
+            {% endif %}>
+            Ferminino
+        </span>
+    </div>
+</div>
+
+<div class="item">
+    <div>Área de Atuação</div>
+    <div>
+        <input 
+        type="text" 
+        name="services" 
+        placeholder="Separe os serviços prestados por vírgula"
+        value="{{ instructor.services }}">
+    </div>
+</div>
+<button type="submit">Salvar</button>
